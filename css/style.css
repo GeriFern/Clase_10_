@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+/* Estilos de nav */ 
+nav p{
+    background-color: #D1891C;
+    padding-left: 10px;
+}
+nav h1{
+    background-color: #00669F;
+    padding: 10px;
+    color: aliceblue;
+}
+
+/* Estilos de section */
+
+section{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    margin: 1rem;
+
+}
+
+section h1{
+    text-align: center;
+}
+
+
+.heroes{
+    background-color: #F3F3F3;
+    height: 600px;
+    width: 404px;
+    border-radius: 40px 40px 0px 0px;
+    position: relative;
+    margin: 20px;
+}
+
+.fondo{
+    border-radius: 40px 40px 0px 0px;
+}
+
+.icono{
+    border-radius: 50%;
+    left:28%;
+    top: 150px;
+    position: absolute;
+}
+
+.heroes h1{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.heroes p{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.boton p{
+    background-color: #00669F;
+    color: aliceblue;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.mas p{
+    background-color: #00669F;
+    color: aliceblue;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+.mas{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+ 
+/* Estilos de footer */
+footer{
+    background-color: #00669F;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.derechos{
+    text-align: center;
+    width: 100%;
+}
+
+@media(max-width:900px){
+    section{
+        height: auto;
+        flex-direction: column;
+    }
+}
